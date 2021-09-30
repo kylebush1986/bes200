@@ -1,0 +1,23 @@
+### Getting Employees
+
+GET http://localhost:1337/employees HTTP/1.1
+Accept: application/json
+
+
+### Getting An Employee
+
+GET http://localhost:1337/employees/5 HTTP/1.1
+Accept: application/json
+
+
+### Adding An Employee
+
+POST http://localhost:1337/employees HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstName": "Jim",
+    "lastName": "Schmidt",
+    "department": "DEV"
+}

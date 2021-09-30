@@ -1,0 +1,4 @@
+
+### Getting the thing pre-cache
+### Anything that takes longer than 100 ms LOCALLY cannot stay.
+GET http://localhost:1337/cached HTTP/1.1

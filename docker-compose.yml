@@ -1,0 +1,32 @@
+version: "3"
+services:
+  api:
+    image: jeffrygonzalez/employeesapi:sep21-b
+    ports: 
+      - 80:80
+    environment: 
+      - nodeApi=http://node:3000
+      - ConnectionStrings__employees=server=sql;database=employees_docker;user=sa;password=TokyoJoe138!
+      - flags:future="true"
+      - redis=cache:6379
+
+
+  node:
+    image: jeffrygonzalez/node-api-on-call:2
+    ports:
+      - 3000:3000
+
+  sql:
+    image: jeffrygonzalez/sqlfor-employees:sep21-b
+    ports:
+      - 1433:1433
+
+  cache:
+    image: redis:latest
+    ports: 
+      - 6379:6379
+
+  pricingworker:
+    image: jeffrygonzalez/pricingworker:1
+    environment:
+      - redis=cache:6379

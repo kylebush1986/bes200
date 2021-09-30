@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesApi", "EmployeesApi\EmployeesApi.csproj", "{B91AA96D-E0F2-472F-B16E-A457D15679F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesApiIntegrationTests", "EmployeesApiIntegrationTests\EmployeesApiIntegrationTests.csproj", "{0360F8D8-BCF0-415F-ACFC-179AEBE79AF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CacheClient", "CacheClient\CacheClient.csproj", "{F90D7EFF-B67A-4BE4-821C-E75DEA59E422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PricingService", "PricingService\PricingService.csproj", "{9EFC10D0-951F-4398-9388-0AD79663854B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiringApi", "HiringApi\HiringApi.csproj", "{7C8E0740-7CDD-49D5-93E0-0E5A1A96D65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiringConsumerService", "HiringConsumerService\HiringConsumerService.csproj", "{CEA5B4EE-8AD4-4796-A88F-87EEDC175432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91AA96D-E0F2-472F-B16E-A457D15679F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91AA96D-E0F2-472F-B16E-A457D15679F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91AA96D-E0F2-472F-B16E-A457D15679F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91AA96D-E0F2-472F-B16E-A457D15679F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0360F8D8-BCF0-415F-ACFC-179AEBE79AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0360F8D8-BCF0-415F-ACFC-179AEBE79AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0360F8D8-BCF0-415F-ACFC-179AEBE79AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0360F8D8-BCF0-415F-ACFC-179AEBE79AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90D7EFF-B67A-4BE4-821C-E75DEA59E422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90D7EFF-B67A-4BE4-821C-E75DEA59E422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90D7EFF-B67A-4BE4-821C-E75DEA59E422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90D7EFF-B67A-4BE4-821C-E75DEA59E422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFC10D0-951F-4398-9388-0AD79663854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFC10D0-951F-4398-9388-0AD79663854B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFC10D0-951F-4398-9388-0AD79663854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFC10D0-951F-4398-9388-0AD79663854B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8E0740-7CDD-49D5-93E0-0E5A1A96D65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8E0740-7CDD-49D5-93E0-0E5A1A96D65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8E0740-7CDD-49D5-93E0-0E5A1A96D65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8E0740-7CDD-49D5-93E0-0E5A1A96D65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA5B4EE-8AD4-4796-A88F-87EEDC175432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA5B4EE-8AD4-4796-A88F-87EEDC175432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA5B4EE-8AD4-4796-A88F-87EEDC175432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA5B4EE-8AD4-4796-A88F-87EEDC175432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CD61195-B863-488B-BC00-6A4C7429E325}
+	EndGlobalSection
+EndGlobal

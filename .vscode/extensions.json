@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "cweijan.vscode-redis-client",
+        "ms-azuretools.vscode-docker",
+        "humao.rest-client"
+    ]
+}
